@@ -1,0 +1,26 @@
+@@@@ TASK 1 @@@@
+Pentru rezolvarea primului task am plecat de la ideea inlocuirii fiecarui sir
+vechi ce se va gasi in fiecare linie cu un nou sir, colorat.
+Am colorat sirul prin concatenare si copiere cu caracterele specificate,
+la noul sir, newword.
+Am initializat un pointer si l-am folosit pentru a gasi urmatoarea pozitie
+a vechiului sir, folosindu-ma de functia strstr;
+
+@@@@ TASK 2 @@@@
+Initial, am introdus sirul de fielduri, l-am dezbinat cu functia strtok si
+l-am introdus intr-un sir auxiliar, de tip int, ce urmeaza sa fie unificat,
+pentru a contine elemente unice. Am folosit apoi strtok pentru a dezbina
+fiecare linie a matricei, in functie de delimitator.Am initializat apoi doi
+counteri ce se vor compara, pentru a afla o pozitie a fiecarui token pe linia
+matricii. Am adaugat noul token;
+
+@@@@ TASK 3 @@@@
+Am alocat initial memorie pentru 3 elemente pentru fiecare linie a matricei,
+introducand apoi elemente pana la intalnirea elementului 0. Am sortat
+apoi mediile, odata cu fiecare linie si apoi lungimile liniilor.
+
+@@@@ TASK 4 @@@@
+M-am folosit de functia strtok pentru a elimina fiecare spatiu de pe fiecare 
+linie, introducand fiecare sir in matricea token. Am verificat initial existenta
+unor siruri formate doar din numere, apoi am criptat fiecare string de pe fiecare
+linie cu ajutorul primului caracter, numit key.
